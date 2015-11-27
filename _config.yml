@@ -1,28 +1,40 @@
-name: GregBrown
-favicon: null
-layout_spectrum: 0.15565
-typography_spectrum: 0.27773
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.7168459
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7545282740611583
+  brandStrength: 0.4469237241428345
+  rhythmicContrast: 0.9338706554844975
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.44692372414283454
-  lightness: 0.10524316877126694
-  saturation: 0.7545282740611583
-  rhythmicContrast: 0.9338706554844975
-purpose: []
+  lightness: 0.1052431687712669
+typography_spectrum: 0.3924731
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: GregBrown
